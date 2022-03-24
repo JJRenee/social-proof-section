@@ -59,7 +59,6 @@ h4 {
 } */
 
 .rating {
-  /* width: 320px; */
   padding: 1rem 0;
   margin: 1rem 0;
   border-radius: 8px;
@@ -108,4 +107,31 @@ h4 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .flex {
+    display: flex;
+    margin-top: 3rem;
+  }
+
+  .words {
+    text-align: left;
+    width: 40%;
+  }
+  .stars {
+    width: 50%;
+    margin-left: 13rem;
+  }
+
+  p {
+    text-align: justify;
+  }
+  h1 {
+    text-align: justify;
+  }
 }
